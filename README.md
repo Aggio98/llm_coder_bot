@@ -12,7 +12,7 @@ The app supports:
 
 # What This App Does
 
-This application connects to AI language models so users can chat with or use AI features inside the app.
+This application connects to AI language models so users can ask it coding questions or even ask to build apps.
 
 The app can use:
 
@@ -196,7 +196,8 @@ with your actual key.
 
 # Step 4 – Set Up Ollama
 
-The app also supports local AI using Ollama.
+The app also supports local AI using Ollama. 
+No need to add money here to use it since it is running locally.
 
 ## Download the llama3.2 Model
 
@@ -248,7 +249,7 @@ python3 main.py
 
 # How the AI Setup Works
 
-When you start the terminal app you will given the choice to choose either OpenAI or Ollama
+When you start the terminal app you will given the choice to choose either OpenAI or Ollama.
 
 ## OpenAI Mode
 
@@ -359,20 +360,20 @@ Recommended:
 project/
 │
 ├── .venv/            # Virutal environemnt
-├── .env              # Application source code
-├── config.py         # Static files
-├── main.py           # Environment variables
-├── README.md         # Project dependencies
-└── requirements.txt  # This file
+├── .env              # Environment variables
+├── config.py         # Static variables, models, system prompt
+├── main.py           # Application source code
+├── README.md         # This file 
+└── requirements.txt  # Project dependencies
 ```
 
 ---
 
 # Useful Links
 
-* urlOpenAI Platform[https://platform.openai.com](https://platform.openai.com)
-* urlOpenAI Documentation[https://platform.openai.com/docs](https://platform.openai.com/docs)
-* urlOllama Documentation[https://ollama.com/library](https://ollama.com/library)
+* OpenAI Platform [https://platform.openai.com](https://platform.openai.com)
+* OpenAI Documentation [https://platform.openai.com/docs](https://platform.openai.com/docs)
+* Ollama Documentation [https://ollama.com/library](https://ollama.com/library)
 
 ---
 
